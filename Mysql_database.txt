@@ -1,0 +1,13 @@
+Mysql 
+1.CREATE THE USER OPEN THE MYSQL TERMINAL
+CREATE USER 'Gitea'@'localhost' IDENTIFIED BY '1234';
+
+give all access
+
+GRANT ALL PRIVILEGES ON database_name.* TO 'Gitea'@'localhost';
+
+FLUSH PRIVILEGES;
+
+To verify user are created
+
+SELECT user, host FROM mysql.user;
