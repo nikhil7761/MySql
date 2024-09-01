@@ -11,3 +11,6 @@ FLUSH PRIVILEGES;
 To verify user are created
 
 SELECT user, host FROM mysql.user;
+
+nikhil.vargude12
+nikhil@123
