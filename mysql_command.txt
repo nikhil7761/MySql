@@ -31,3 +31,7 @@ values(21,nikhil);
 
 
 
+SELECT BENCHMARK(100000000, SHA2('test', 512));
+
+
+
